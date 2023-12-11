@@ -35,7 +35,7 @@ export const routes: Route[] = [
 
 export const withCredentialRoutes: Route[] = [
   { name: "Datos", href: "/data" },
-  { name: "Información de su poliza", href: "/your-policy-information" },
+  { name: "Información de su póliza", href: "/your-policy-information" },
   { name: "Status reclamo", href: "/claim-statuses" },
   { name: "Otros reclamos", href: "/other-claims" },
   { name: "Asistencia", href: "/assistance" },
