@@ -7,6 +7,17 @@ import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 import reportSlice from "@/redux/slices/report.slice";
 import routesSlice from "@redux/slices/routes.slice";
 
+/**
+ * Importa las funciones y módulos específicos de Redux para la aplicación.
+ * @namespace ReduxApp
+ */
+
+
+/**
+ * Crea un almacén sin funcionalidad de almacenamiento persistente.
+ * @function
+ * @returns {Object} Un objeto de almacenamiento sin funcionalidad.
+ */
 export const createNoopStorage = () => {
   return {
     getItem(_key: any) {

@@ -29,7 +29,7 @@ export const NavigationList = ({}: NavigationListProps) => {
   };
 
   return (
-    <ul className="w-full font-medium flex flex-col md:p-4 md:flex-row md:space-x-8">
+    <ul className="w-full font-medium flex flex-col md:p-2 lg:p-4 md:flex-row md:space-x-8">
       {routes.data.map((route) => (
         <NavigationItem
           key={route.name}

@@ -20,7 +20,7 @@ export default function Home({ searchParams }: HomeProps) {
   const { isFetched, isLoading, user } = useSelector(selectReport);
 
   return (
-    <main className="flex-1 flex flex-col items-center justify-start gap-8">
+    <main className="flex-1 flex flex-col items-center justify-start gap-20">
       {isFetched && <Welcome />}
       {!isFetched && (
         <>

@@ -12,7 +12,7 @@ export const UserData = ({}: UserDataProps) => {
   if (!isFetched && isLoading) return <FormSkeleton />;
 
   return (
-    <form className="m-auto bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-xl flex flex-col">
+    <form className="m-auto bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-3xl flex flex-col">
       <div className="flex flex-row justify-center items-center w-full mb-6">
         <div className="w-2/4 flex flex-row flex-nowrap justify-end items-center">
           <label
@@ -38,7 +38,7 @@ export const UserData = ({}: UserDataProps) => {
             className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4"
             htmlFor="inline-full-name"
           >
-            Cedula:
+            Cédula:
           </label>
         </div>
         <div className="w-full">
@@ -57,7 +57,7 @@ export const UserData = ({}: UserDataProps) => {
             className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4 mt-1"
             htmlFor="inline-full-name"
           >
-            Telefono:
+            Teléfono:
           </label>
         </div>
         <div className="w-full flex flex-col">

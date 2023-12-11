@@ -2,8 +2,8 @@ export interface CareerProps {}
 
 export const Career = ({}: CareerProps) => {
   return (
-    <div className="flex flex-col gap-2">
-      <h3 className="text-xl text-slate-800 dark:text-slate-50 font-semibold text-left mb-2">
+    <div className="flex flex-col gap-3">
+      <h3 className="text-3xl text-slate-800 dark:text-slate-50 font-weight-400; text-left mb-2">
         TRAYECTORIA
       </h3>
 

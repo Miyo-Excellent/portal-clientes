@@ -38,7 +38,7 @@ export const ReportNumberForm = ({}: ReportNumberFormProps) => {
 
       <div className="flex flex-row flex-nowrap justify-center items-center gap-2">
         <span className="text-md font-semibold text-slate-900 dark:text-white">
-          Numero de reporte:
+          Número de reporte:
         </span>
 
         <div className="flex-1">
@@ -48,7 +48,7 @@ export const ReportNumberForm = ({}: ReportNumberFormProps) => {
             name="report-number"
             buttonText="Buscar"
             isLoading={isLoading}
-            label="Numero de reporte"
+            label="Número de reporte"
             onChange={onChange}
             controlId={1}
             onClickButton={onClickButton}
@@ -56,12 +56,12 @@ export const ReportNumberForm = ({}: ReportNumberFormProps) => {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="w-full flex justify-end items-center">
         <strong className="font-semibold mr-2 text-sm text-slate-700 dark:text-slate-50">
           *
         </strong>
         <span className="text-right font-normal mr-2 text-sm text-slate-700 dark:text-slate-50">
-          Este numero le llego a su correo. Si no lo tiene haga click
+          Este número le llego a su correo. Si no lo tiene haga click
         </span>
         <Link
           href="/"

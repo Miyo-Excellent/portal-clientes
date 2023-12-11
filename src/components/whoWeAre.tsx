@@ -3,7 +3,7 @@ export interface WhoWeAreProps {}
 export const WhoWeAre = ({}: WhoWeAreProps) => {
   return (
     <div className="max-w-md flex flex-col flex-nowrap justify-start items-stretch gap-2">
-      <h3 className="text-xl text-slate-800 dark:text-slate-50 font-semibold text-left mb-2">
+      <h3 className="text-3xl text-slate-800 dark:text-slate-50 font-weight-400; text-left mb-2">
         QUIÉNES SOMOS
       </h3>
 

@@ -19,7 +19,7 @@ export default function YourPolicyInformationPage({
 
   return (
     <Suspense fallback={<PageSkeleton />}>
-      <main className="p-8 flex-1 flex flex-col items-center justify-center">
+      <main className="p-10 flex-1 flex flex-col justify-center w-full items-center">
         {!isFetched && <ReportNumberForm />}
         {isFetched &&
           (isLoading ? (
@@ -40,7 +40,7 @@ export default function YourPolicyInformationPage({
               <span className="sr-only">Loading...</span>
             </div>
           ) : (
-            <form className="bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-xl flex flex-col">
+            <form className="bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-4xl flex flex-col">
               <div className="flex felx-col justify-center items-center mb-6">
                 <div className="flex flex-row flex-nowrap justify-end items-center md:w-2/4">
                   <label
@@ -66,7 +66,7 @@ export default function YourPolicyInformationPage({
                     className="block text-slate-700 dark:text-slate-50 font-bold mb-1 md:mb-0 pr-4"
                     htmlFor="inline-full-name"
                   >
-                    Numero de poliza:
+                    Número de póliza:
                   </label>
                 </div>
                 <div className="w-full">
@@ -100,16 +100,16 @@ export default function YourPolicyInformationPage({
                       <div className="flex flex-row justify-center items-center gap-1">
                         <Link
                           href="/"
-                          className="text-blue-500 flex justify-center items-center mr-2 transition-all ease-in-out duration-300 hover:text-white hover:p-1.5 hover:bg-sky-400 hover:rounded-2xl"
+                          className="w-7 h-7 text-indigo-400 hover:text-indigo-500 transition-all ease-in-out duration-150 flex justify-center items-center text-lg hover:text-2xl"
                         >
-                          <FaSheetPlastic className="text-lg" />
+                          <FaSheetPlastic className="" />
                         </Link>
 
                         <Link
                           href="/"
-                          className="text-blue-500 flex justify-center items-center transition-all ease-in-out duration-300 hover:text-white hover:p-1.5 hover:bg-sky-400 hover:rounded-2xl"
+                          className="w-7 h-7 text-indigo-400 hover:text-indigo-500 transition-all ease-in-out duration-150 flex justify-center items-center text-lg hover:text-2xl"
                         >
-                          <BsRobot className="text-lg" />
+                          <BsRobot className="" />
                         </Link>
                       </div>
                     </div>
