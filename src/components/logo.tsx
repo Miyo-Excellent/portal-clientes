@@ -10,9 +10,9 @@ export const Logo = ({ href = "/" }: LogoProps) => {
   return (
     <Link
       href={href}
-      className="flex flex-row flex-nowrap items-center space-x-3 rtl:space-x-reverse"
+      className="w-[150px] xl:w-[100px] flex items-center justify-center self-start"
     >
-      <Image src={logo} className="h-8 w-auto" alt="Purdy seguros" />
+      <Image src={logo} className="h-auto w-full" alt="Purdy seguros" />
     </Link>
   );
 };
