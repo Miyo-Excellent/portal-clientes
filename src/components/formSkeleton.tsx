@@ -19,7 +19,7 @@ export const FormSkeleton = ({}: FormSkeletonProps) => {
       <div className="h-2 bg-slate-200 rounded-full dark:bg-slate-700 mb-2.5"></div>
       <div className="h-2 bg-slate-200 rounded-full dark:bg-slate-700 max-w-[330px] mb-2.5"></div>
       <div className="h-2 bg-slate-200 rounded-full dark:bg-slate-700 max-w-[360px]"></div>
-      <span className="sr-only">Loading...</span>
+      <span className="sr-only">Cargando...</span>
     </div>
   );
 };

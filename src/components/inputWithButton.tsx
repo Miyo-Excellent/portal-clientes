@@ -60,7 +60,7 @@ export const InputWithButton = ({
               role="status"
               aria-label="loading"
             >
-              <span className="sr-only">Loading...</span>
+              <span className="sr-only">Cargando...</span>
             </div>
           ) : (
             <svg

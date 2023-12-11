@@ -4,7 +4,7 @@ export default function FinancialStatements({}: FinancialStatementsProps) {
   return (
     <main className="p-8 flex-1 flex flex-col items-center justify-center">
       <h1 className="text-slate-700 dark:text-slate-50 text-3xl">
-        Financial Statements
+        Estados Financieros
       </h1>
     </main>
   );

@@ -67,7 +67,7 @@ export const ReportNumberForm = ({}: ReportNumberFormProps) => {
           href="/"
           className="font-semibold text-blue-500 dark:text-blue-400 text-sm"
         >
-          aqui
+          aquí
         </Link>
       </div>
     </form>
