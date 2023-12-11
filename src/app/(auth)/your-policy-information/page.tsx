@@ -42,9 +42,9 @@ export default function YourPolicyInformationPage({
           ) : (
             <form className="bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-4xl flex flex-col">
               <div className="flex felx-col justify-center items-center mb-6">
-                <div className="flex flex-row flex-nowrap justify-end items-center md:w-2/4">
+                <div className="flex flex-row flex-nowrap justify-end items-center w-2/4">
                   <label
-                    className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4"
+                    className="block text-slate-700 dark:text-slate-50 font-bold pr-4 text-right"
                     htmlFor="inline-full-name"
                   >
                     Aseguradora:
@@ -61,9 +61,9 @@ export default function YourPolicyInformationPage({
                 </div>
               </div>
               <div className="flex felx-col justify-center items-center mb-6">
-                <div className="flex flex-row flex-nowrap justify-end items-center md:w-2/4">
+                <div className="flex flex-row flex-nowrap justify-end items-center w-2/4">
                   <label
-                    className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4"
+                    className="block text-slate-700 dark:text-slate-50 font-bold pr-4 text-right"
                     htmlFor="inline-full-name"
                   >
                     Número de póliza:
@@ -81,7 +81,7 @@ export default function YourPolicyInformationPage({
               </div>
               <div className="grid grid-cols-3 gap-1 p-2">
                 <div className="flex flex-row items-start justify-end">
-                  <span className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4">
+                  <span className="md:mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4 text-right">
                     Cobertura:
                   </span>
                 </div>
@@ -118,7 +118,7 @@ export default function YourPolicyInformationPage({
               </div>
               <div className="grid grid-cols-3 gap-1 p-2">
                 <div className="flex flex-row flex-nowrap items-start justify-end">
-                  <span className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4">
+                  <span className="block text-slate-700 dark:text-slate-50 font-bold pr-4 text-right">
                     Deducible:
                   </span>
                 </div>

@@ -14,7 +14,7 @@ export const UserData = ({}: UserDataProps) => {
   return (
     <form className="m-auto bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-3xl flex flex-col">
       <div className="flex flex-row justify-center items-center w-full mb-6">
-        <div className="w-1/4 flex justify-end items-center mt-0.5">
+        <div className="w-1/4 flex justify-end items-center">
           <label
             className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4"
             htmlFor="inline-full-name"
@@ -33,7 +33,7 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center w-full mb-6">
-        <div className="w-1/4 flex justify-end items-center mt-0.5">
+        <div className="w-1/4 flex justify-end items-center">
           <label
             className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4"
             htmlFor="inline-full-name"
@@ -52,7 +52,7 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-start w-full mb-6">
-        <div className="w-1/4 flex justify-end items-center mt-0.5">
+        <div className="w-1/4 flex justify-end items-center">
           <label
             className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4 mt-1"
             htmlFor="inline-full-name"
@@ -74,7 +74,7 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-start w-full mb-6">
-        <div className="w-1/4 flex justify-end items-center mt-0.5">
+        <div className="w-1/4 flex justify-end items-center">
           <label
             className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4 mt-1"
             htmlFor="inline-full-name"
@@ -96,7 +96,7 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center w-full mb-6">
-        <div className="w-1/4 flex justify-end items-center mt-0.5">
+        <div className="w-1/4 flex justify-end items-center">
           <label
             className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4"
             htmlFor="inline-full-name"
