@@ -14,9 +14,9 @@ export const UserData = ({}: UserDataProps) => {
   return (
     <form className="m-auto bg-slate-100 dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-950 rounded-2xl p-8 shadow-md shadow-slate-800 w-full max-w-3xl flex flex-col">
       <div className="flex flex-row justify-center items-center w-full mb-6">
-        <div className="w-2/4 flex flex-row flex-nowrap justify-end items-center">
+        <div className="w-1/4 flex justify-end items-center mt-0.5">
           <label
-            className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4"
+            className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4"
             htmlFor="inline-full-name"
           >
             Nombre:
@@ -33,9 +33,9 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center w-full mb-6">
-        <div className="w-2/4 flex flex-row flex-nowrap justify-end items-center">
+        <div className="w-1/4 flex justify-end items-center mt-0.5">
           <label
-            className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4"
+            className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4"
             htmlFor="inline-full-name"
           >
             Cédula:
@@ -52,9 +52,9 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-start w-full mb-6">
-        <div className="w-2/4 flex flex-row flex-nowrap justify-end items-center">
+        <div className="w-1/4 flex justify-end items-center mt-0.5">
           <label
-            className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4 mt-1"
+            className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4 mt-1"
             htmlFor="inline-full-name"
           >
             Teléfono:
@@ -74,9 +74,9 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-start w-full mb-6">
-        <div className="w-2/4 flex flex-row flex-nowrap justify-end items-center">
+        <div className="w-1/4 flex justify-end items-center mt-0.5">
           <label
-            className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4 mt-1"
+            className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4 mt-1"
             htmlFor="inline-full-name"
           >
             Email:
@@ -96,9 +96,9 @@ export const UserData = ({}: UserDataProps) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center w-full mb-6">
-        <div className="w-2/4 flex flex-row flex-nowrap justify-end items-center">
+        <div className="w-1/4 flex justify-end items-center mt-0.5">
           <label
-            className="block text-slate-500 dark:text-slate-50 font-bold text-right mb-1 md:mb-0 pr-4"
+            className="block text-slate-700 dark:text-slate-50 font-bold text-right pr-4"
             htmlFor="inline-full-name"
           >
             Placa:

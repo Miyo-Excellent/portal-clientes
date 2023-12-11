@@ -44,13 +44,13 @@ export default function YourPolicyInformationPage({
               <div className="flex felx-col justify-center items-center mb-6">
                 <div className="flex flex-row flex-nowrap justify-end items-center md:w-2/4">
                   <label
-                    className="block text-slate-700 dark:text-slate-50 font-bold mb-1 md:mb-0 pr-4"
+                    className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4"
                     htmlFor="inline-full-name"
                   >
                     Aseguradora:
                   </label>
                 </div>
-                <div className="w-full">
+                <div className="w-full flex justify-center items-center">
                   <input
                     disabled
                     className="w-full py-2 px-4 text-slate-700 dark:text-slate-50 leading-tight dark:bg-slate-900 rounded-lg"
@@ -63,13 +63,13 @@ export default function YourPolicyInformationPage({
               <div className="flex felx-col justify-center items-center mb-6">
                 <div className="flex flex-row flex-nowrap justify-end items-center md:w-2/4">
                   <label
-                    className="block text-slate-700 dark:text-slate-50 font-bold mb-1 md:mb-0 pr-4"
+                    className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4"
                     htmlFor="inline-full-name"
                   >
                     Número de póliza:
                   </label>
                 </div>
-                <div className="w-full">
+                <div className="w-full flex justify-center items-center">
                   <input
                     disabled
                     className="w-full py-2 px-4 text-slate-700 dark:text-slate-50 leading-tight dark:bg-slate-900 rounded-lg"
@@ -79,9 +79,9 @@ export default function YourPolicyInformationPage({
                   />
                 </div>
               </div>
-              <div className="mb-6 grid grid-cols-3 gap-1">
+              <div className="grid grid-cols-3 gap-1 p-2">
                 <div className="flex flex-row items-start justify-end">
-                  <span className="block text-slate-700 dark:text-slate-50 font-bold mb-1 md:mb-0 pr-4 mt-1">
+                  <span className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4">
                     Cobertura:
                   </span>
                 </div>
@@ -89,7 +89,7 @@ export default function YourPolicyInformationPage({
                   {policy.coverages.map(({ name }, index) => (
                     <div
                       key={`coverage-${name}`}
-                      className="flex flex-row flex-nowrap justify-center items-center gap-2 p-2"
+                      className="flex flex-row flex-nowrap justify-center items-center gap-2"
                     >
                       <span className="flex-1 w-max text-slate-700 dark:text-slate-50">
                         {`Cobertura ${
@@ -116,9 +116,9 @@ export default function YourPolicyInformationPage({
                   ))}
                 </div>
               </div>
-              <div className="mb-6 grid grid-cols-3 gap-1">
+              <div className="grid grid-cols-3 gap-1 p-2">
                 <div className="flex flex-row flex-nowrap items-start justify-end">
-                  <span className="block text-slate-700 dark:text-slate-50 font-bold mb-1 md:mb-0 pr-4 mt-1">
+                  <span className="mt-0.5 block text-slate-700 dark:text-slate-50 font-bold pr-4">
                     Deducible:
                   </span>
                 </div>
