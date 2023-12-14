@@ -1,5 +1,6 @@
 import { Logo } from "@components/logo";
 import { NavigationList } from "@components/navigationList";
+import { CommonChat } from "@components/commonChat";
 
 export interface NavigationProps {}
 
@@ -10,6 +11,10 @@ export const Navigation = ({}: NavigationProps) => {
         <Logo />
 
         <NavigationList />
+
+        <div className="w-[256px] flex flex-row flex-nowrap justify-center items-center">
+          <CommonChat />
+        </div>
       </div>
     </nav>
   );

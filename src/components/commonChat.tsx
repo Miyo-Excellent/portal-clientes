@@ -24,7 +24,7 @@ export const CommonChat = ({}: CommonChatProps) => {
   return (
     <>
       <div
-        className="col d-flex align-items-center cursor-pointer"
+        className="flex-1 flex-row flex-nowrap flex justify-end items-center gap-2 px-4 py-2 cursor-pointer"
         onClick={() => toggle()}
         role="presentation"
       >

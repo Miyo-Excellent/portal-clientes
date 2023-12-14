@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Navigation } from "@components/navigation";
 import { AppProviders } from "@components/appProviders";
-import { CommonChat } from "@components/commonChat";
 import "@styles/globals.css";
 import "@styles/styles.scss";
 import "react-notifications-component/dist/theme.css";
@@ -22,8 +21,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         className={`${inter.className} min-h-screen flex flex-col justify-start items-stretch dark:bg-gray-900`}
       >
         <AppProviders>
-          <CommonChat />
-
           <Navigation />
 
           {children}
