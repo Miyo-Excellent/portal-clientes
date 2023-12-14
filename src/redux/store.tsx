@@ -6,12 +6,12 @@ import logger from "redux-logger";
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 import reportSlice from "@/redux/slices/report.slice";
 import routesSlice from "@redux/slices/routes.slice";
+import chatSlice from "@redux/slices/chat.slice";
 
 /**
  * Importa las funciones y módulos específicos de Redux para la aplicación.
  * @namespace ReduxApp
  */
-
 
 /**
  * Crea un almacén sin funcionalidad de almacenamiento persistente.
@@ -48,6 +48,7 @@ export const persistedReducer = persistReducer(
   combineReducers({
     report: reportSlice,
     routes: routesSlice,
+    chat: chatSlice,
   }),
 );
 

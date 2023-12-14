@@ -50,6 +50,15 @@
       "@images/*": [
         "./src/assets/images/*"
       ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@helpers/*": [
+        "./src/helpers/*"
+      ],
+      "@data/*": [
+        "./src/data/*"
+      ],
       "@actions/*": [
         "./src/actions/*"
       ]
