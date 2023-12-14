@@ -44,7 +44,7 @@ export const NavigationList = ({}: NavigationListProps) => {
           <button
             onClick={onExit}
             type="button"
-            className={`block py-2 px-3 text-slate-900 dark:text-white rounded md:p-0`}
+            className={`block py-2 px-3 text-slate-900 dark:text-white rounded md:p-0 no-underline text-lg`}
             aria-current="page"
           >
             Salir

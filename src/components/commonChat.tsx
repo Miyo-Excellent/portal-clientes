@@ -12,14 +12,18 @@ import USERS from "@data/userDummyData";
 import Avatar from "@components/avatar";
 import { useDispatch, useSelector } from "react-redux";
 import { selectChat, toggleChat } from "@redux/slices/chat.slice";
+import { selectReport } from "@redux/slices/report.slice";
 
 export interface CommonChatProps {}
 
 export const CommonChat = ({}: CommonChatProps) => {
+  const { isFetched: isReportFetched } = useSelector(selectReport);
   const { messages, isOpen } = useSelector(selectChat);
   const dispatch = useDispatch();
 
   const toggle = () => dispatch(toggleChat(!isOpen));
+
+  if (!isReportFetched) return null;
 
   return (
     <>

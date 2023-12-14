@@ -17,7 +17,7 @@ export const NavigationItem = ({
       <Link
         onClick={() => onActiveItem({ name, href })}
         href={href}
-        className={`block py-2 px-3 ${
+        className={`block py-2 px-3 no-underline text-lg ${
           isActive ? "text-blue-500" : "text-slate-900 dark:text-white"
         } rounded md:p-0`}
         aria-current="page"
